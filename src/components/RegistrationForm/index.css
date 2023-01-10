@@ -1,0 +1,187 @@
+/* Write your CSS code here */
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  font-family: sans - serif;
+}
+.registration-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+@media screen and (max-width: 767px) {
+  .registration-form-container {
+    flex-direction: column;
+    justify-content: start;
+    padding-top: 50px;
+  }
+}
+
+.form-title {
+  padding: 20px 130px;
+  font-size: 26px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+
+@media screen and (max-width: 767px) {
+  .form-title {
+    font-size: 36px;
+  }
+}
+
+.view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 350px;
+  padding: 20px;
+  border-radius: 16px;
+  min-height: 310px;
+}
+
+@media screen and (min-width: 768px) {
+  .view-container {
+    max-width: 450px;
+    flex-shrink: 0;
+    box-shadow: 0px 4px 16px rgba(126, 133, 142, 0.16);
+    padding: 48px 64px 48px 64px;
+    margin-bottom: 20px;
+  }
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.input-label {
+  margin-bottom: 0px;
+  color: #130f40;
+  font-weight: 80px;
+  font-size: 22px;
+  padding-bottom: 10px;
+  line-height: 16px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.header {
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+.name-input-field {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 500;
+  border: 1px solid #cbd2d9;
+  color: #9aa5b1;
+  border-radius: 4px;
+  margin-top: 5px;
+  padding: 8px 16px 8px 16px;
+  outline: none;
+}
+
+.success-image {
+  width: 72px;
+}
+
+.submit-button {
+  font-size: 20px;
+  color: #ffffff;
+  padding: 8px 16px;
+  margin-top: 40px;
+  height: 40px;
+  width: 100px;
+  margin-bottom: 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  background-color: #1a237e;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (max-width: 768px) {
+  .submit-button {
+    width: 100%;
+  }
+}
+
+.error-field {
+  border: 1px solid #ff0b37;
+  background-color: #fef2f4;
+}
+
+.error-message {
+  align-self: start;
+  font-size: 12px;
+  margin-top: 3px;
+  margin-bottom: 0px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  line-height: 16px;
+  color: #ff0b37;
+}
+.form-control {
+  padding-bottom: 25px;
+}
+.left {
+  font-size: 15px;
+  font-family: 'bree serif';
+  color: blue;
+  margin-left: 10px;
+}
+.inputvalue {
+  margin-left: 10px;
+}
+.oper {
+  font-size: 15px;
+  font-family: 'bree serif';
+  color: blue;
+  margin-left: 10px;
+}
+.right {
+  font-size: 15px;
+  font-family: 'bree serif';
+  color: blue;
+  margin-left: 10px;
+}
+.sub {
+  height: 36px;
+  width: 60px;
+  background-color: '#dedede';
+  font-family: 'Roboto';
+  border-radius: 5px;
+  margin-left: 5px;
+}
+.para {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: orange;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-top: 20px;
+}
